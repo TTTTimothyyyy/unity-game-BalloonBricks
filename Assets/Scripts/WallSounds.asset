@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: WallSounds
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Wall
+      Sounds","summary":"Sounds are played when something comes into contact with
+      it","pan":{"x":167.4701,"y":29.13689},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"2729f39f-b3e7-4373-9338-14c04017c94c","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"199ec6c1-4169-4b5b-bad3-550ba9e863e2","$version":"A","$type":"Unity.VisualScripting.Update"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-258.0,"y":-28.0},"guid":"704ea35a-b686-40a3-8f58-a140dfa91bec","$version":"A","$type":"Unity.VisualScripting.OnCollisionEnter2D","$id":"13"},{"argumentCount":0,"defaultValues":{"name":{"$content":"HitWall","$type":"System.String"},"target":null},"position":{"x":136.0,"y":-52.0},"guid":"33462759-d10d-497c-b8e3-5a19317beb9d","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"15"},{"chainable":false,"member":{"name":"FindWithTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%tag":{"$content":"SoundManager","$type":"System.String"}},"position":{"x":-216.0,"y":-164.0},"guid":"ac5d583e-9ffc-4154-aaa3-bc2f7170148e","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"6ba293c8-92e1-4fce-a372-0d168109a1ba","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"result","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"613a3061-4130-44aa-9835-3522bbbef060","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

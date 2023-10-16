@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PaddleStartLocation
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Set
+      Paddle Start Position","summary":"Sets the Paddle''s position to it''s start
+      location","pan":{"x":29.5,"y":122.5},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":".ctor","parameterTypes":["System.Single","System.Single"],"targetType":"UnityEngine.Vector2","targetTypeName":"UnityEngine.Vector2","$version":"A"},"defaultValues":{"%x":{"$content":0.0,"$type":"System.Single"},"%y":{"$content":0.0,"$type":"System.Single"}},"position":{"x":149.0,"y":-34.0},"guid":"35b33974-a547-4133-8d68-7c107b347184","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":143.0,"y":-194.0},"guid":"8a1b867c-9312-4b95-87c7-ec8879345310","$version":"A","$type":"Unity.VisualScripting.Start","$id":"12"},{"type":"System.Single","value":{"$content":-3.5,"$type":"System.Single"},"defaultValues":{},"position":{"x":-11.0,"y":82.0},"guid":"a85dc120-7277-40ff-92b8-75aac6dc06d8","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"14"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Rigidbody2D","targetTypeName":"UnityEngine.Rigidbody2D","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"}},"position":{"x":341.0,"y":-182.0},"guid":"db9b43a2-8021-4e06-84f8-8766444ce3d2","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"16"},{"type":"System.Single","value":{"$content":0.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":-13.0,"y":-18.0},"guid":"b17b5078-ca5c-4256-8939-d70097e44462","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"19"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"801773a4-5781-43f0-965d-fff82a41017b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"%x","guid":"bc1c7346-c143-4cc4-b949-a1733f4ade34","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"%y","guid":"e0b184e9-b269-471a-8225-5daae36adcc4","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"result","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"61e04c03-3b7e-49d4-a5fc-9fafd966b294","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-62.0,"yMin":-264.0,"xMax":543.0,"yMax":202.0},"label":"Set
+      Paddle Start Position","comment":null,"color":{"r":0.7830189,"g":0.7830189,"b":0.7830189,"a":1.0},"guid":"48f08c07-77ac-4d1d-a999-df82f2d6f922","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

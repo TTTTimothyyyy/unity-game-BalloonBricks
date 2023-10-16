@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PaddleMovement
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Paddle
+      Controler","summary":"Controles the Paddle''s Mechanics","pan":{"x":208.2925,"y":-76.26108},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"GetAxis","parameterTypes":["System.String"],"targetType":"UnityEngine.Input","targetTypeName":"UnityEngine.Input","$version":"A"},"defaultValues":{"%axisName":{"$content":"Horizontal","$type":"System.String"}},"position":{"x":-241.0,"y":-73.0},"guid":"558dcdb3-f786-4e1f-a0fa-ad07cdaa3ad3","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"9"},{"chainable":false,"member":{"name":".ctor","parameterTypes":["System.Single","System.Single"],"targetType":"UnityEngine.Vector2","targetTypeName":"UnityEngine.Vector2","$version":"A"},"defaultValues":{"%x":{"$content":0.0,"$type":"System.Single"},"%y":{"$content":0.0,"$type":"System.Single"}},"position":{"x":199.0,"y":-59.0},"guid":"409af2dc-aaf5-442b-a597-9be086fa50be","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"coroutine":false,"defaultValues":{},"position":{"x":-460.0,"y":-217.0},"guid":"6564f5d8-33ed-488c-8229-cf31bcf3dd26","$version":"A","$type":"Unity.VisualScripting.FixedUpdate","$id":"15"},{"defaultValues":{},"position":{"x":30.0,"y":-66.0},"guid":"98b7be3b-d1fb-4832-a84c-18fc5c0fd26a","$version":"A","$type":"Unity.VisualScripting.GenericMultiply","$id":"17"},{"type":"System.Int32","value":{"$content":12,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-146.0,"y":65.0},"guid":"63616a7c-68e7-4166-beee-95eae42020f8","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"19"},{"chainable":false,"member":{"name":"velocity","parameterTypes":null,"targetType":"UnityEngine.Rigidbody2D","targetTypeName":"UnityEngine.Rigidbody2D","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"}},"position":{"x":436.0,"y":-208.0},"guid":"10677bfc-5f92-4a2f-a686-c6e95c043646","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"21"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"21"},"destinationKey":"assign","guid":"3c5ac034-40bd-488d-8488-14e63cf1525a","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"result","destinationUnit":{"$ref":"21"},"destinationKey":"input","guid":"6011b590-69ad-4d72-8da2-44713662cc93","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"b","guid":"19eaaed6-5ace-44c9-a1dd-ae72ac41d44e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"product","destinationUnit":{"$ref":"12"},"destinationKey":"%x","guid":"6db1b7d0-6717-4eda-b141-0633d05340e5","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"result","destinationUnit":{"$ref":"17"},"destinationKey":"a","guid":"9439f033-7952-4ace-b46e-a4d876d544db","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-480.7135,"yMin":-330.0,"xMax":619.3531,"yMax":172.3684},"label":"Paddle
+      Movement","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"f4f0a611-8773-4d8f-b9a0-25ac5def1fc2","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

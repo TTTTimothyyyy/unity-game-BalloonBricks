@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: PaddleSounds
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":241.9163,"y":4.535208},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"4c07fb4d-ce20-4e03-a9df-b065a634f914","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"71377a74-de75-4342-bab1-843cb8241399","$version":"A","$type":"Unity.VisualScripting.Update"},{"coroutine":false,"defaultValues":{},"position":{"x":60.0,"y":-127.0},"guid":"af92655f-e476-4a1d-abbd-e2109c507919","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":60.0,"y":77.0},"guid":"80573f04-1562-462e-9608-1f7932562abc","$version":"A","$type":"Unity.VisualScripting.Update"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":6.0,"y":-11.0},"guid":"83753bd8-5d82-4e05-a796-473f8f062d39","$version":"A","$type":"Unity.VisualScripting.OnCollisionEnter2D","$id":"17"},{"argumentCount":0,"defaultValues":{"name":{"$content":"HitPaddle","$type":"System.String"},"target":null},"position":{"x":400.0,"y":-35.0},"guid":"b76be50f-e7d5-4ff2-a57c-bcba2dec01fc","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"19"},{"chainable":false,"member":{"name":"FindWithTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%tag":{"$content":"SoundManager","$type":"System.String"}},"position":{"x":48.0,"y":-147.0},"guid":"7eac6aae-1502-45f5-bcaa-625fac9ce355","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"21"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"e24c6e5e-ef2b-453b-9cfa-d9ea77f5c4e1","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"result","destinationUnit":{"$ref":"19"},"destinationKey":"target","guid":"2e1faebd-9cdb-4b82-8130-f19f1008b588","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: BrickParent
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":511.3783,"y":-45.08386},"zoom":1.0,"elements":[{"kind":"Scene","defaultValues":{"name":{"$content":"brickTotal","$type":"System.String"}},"position":{"x":539.0,"y":-119.0},"guid":"78e4d433-3200-4f22-ba26-c44f32f27d52","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"9"},{"member":{"name":"childCount","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":305.0,"y":15.0},"guid":"84cd80b1-fb30-44dc-9ed3-099219aeca03","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"brickTotal","$type":"System.String"}},"position":{"x":85.0,"y":12.0},"guid":"7621b8b6-4a1f-4434-a4c9-9cd271e66b13","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"coroutine":true,"defaultValues":{},"position":{"x":119.0,"y":-117.0},"guid":"abee5e36-697d-41e7-be16-06b12c880bca","$version":"A","$type":"Unity.VisualScripting.Start","$id":"16"},{"defaultValues":{"seconds":{"$content":2.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":306.0,"y":-146.0},"guid":"8f55671a-57ca-41aa-ab27-ed5203a9e572","$version":"A","$type":"Unity.VisualScripting.WaitForSecondsUnit","$id":"18"},{"sourceUnit":{"$ref":"18"},"sourceKey":"exit","destinationUnit":{"$ref":"9"},"destinationKey":"assign","guid":"e62d2462-9412-44cf-a23d-3f3e908f4686","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"deba15af-fc20-44ee-a083-d559337b6d45","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"input","guid":"f0f69291-e004-4010-beb8-9270af86f8c0","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"3fd397f8-84b3-4bfe-b346-8483278f3fa7","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":47.0,"yMin":-179.0,"xMax":754.0,"yMax":157.0},"label":"Gets
+      the Level''s Brick Count after a lil bit of Waiting","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"26bb0510-9ce5-473c-a925-be9e69d1953e","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
